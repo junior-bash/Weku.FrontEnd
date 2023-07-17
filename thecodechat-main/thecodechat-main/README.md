@@ -1,6 +1,4 @@
-# The Code Chat - Social Media App
 
-Hi there! I'm Khulekani Shaun Mpanza, the creator of **The Code Chat**. This cross-platform messaging app allows users to post messages on a public screen, similar to Twitter without the need to follow someone to see their messages. Currently, this app serves as a personal portfolio project. If you have any questions or suggestions, feel free to reach out to me at khulekani.zondi704@gmail.com.
 
 ## Table of Contents
 
@@ -70,7 +68,6 @@ flutter run
 I appreciate any contributions to the project or reports of issues. Please create an issue on the GitHub repository or submit a pull request.
 
 ### Author
-Khulekani Shaun Mpanza - khulekani.zondi704@gmail.com
-
+Bob Junior Konde - bobkalala12@gmail.com
 ### License
 This project is licensed under the MIT License. For more information, please see the LICENSE file.
