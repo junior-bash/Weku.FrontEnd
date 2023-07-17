@@ -20,4 +20,5 @@ To login, click on the "Login" button in the navigation menu, and the login moda
 To close the login modal, click on the close button or click outside of the modal.
 
 ### Credits
-The website was designed and developed by Khulekani Shaun Mpanza. Any questions or feedback can be directed to khulekani.zondi704@gmail.com.
+The website was designed and developed by Khulekani Shaun Mpanza. Any questions or feedback can be directed to bobkalala12@gmail.com
+
