@@ -1,0 +1,105 @@
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+// Define color palettes
+$squizz-primary: mat-palette($mat-indigo);
+$squizz-accent: mat-palette($mat-pink);
+$squizz-warn: mat-palette($mat-red);
+
+// Create the theme object
+$squizz-theme: mat-light-theme($squizz-primary, $squizz-accent, $squizz-warn);
+
+// Apply Angular Material theme
+@include angular-material-theme($squizz-theme);
+
+// Custom styles
+$primary-color: #303F9F;
+$secondary-color: #E91E63;
+$tertiary-color: white;
+$primary-font: 'Roboto', sans-serif;
+$secondary-font: 'Arial', sans-serif;
+
+html,
+body {
+  height: 100%;
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: $primary-color;
+  line-height: 1.6;
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+  font-family: $secondary-font;
+  color: $tertiary-color;
+}
+
+p {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  color: $tertiary-color;
+}
+
+.mat-radio-outer-circle {
+  border: 2px solid $secondary-color;
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: lighten($secondary-color, 20%);
+}
+.results {
+  margin-top: 20px;
+}
+
+.answer {
+  margin-bottom: 10px;
+}
+
+.correct {
+  color: green;
+}
+
+.score {
+  margin-top: 20px;
+}
+
+.score-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.score-value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-color;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: lighten($secondary-color, 20%);
+}
+
+@media all and (max-width: 750px) {
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+
+  html,
+  body,
+  a {
+    font-size: 16px;
+  }
+}

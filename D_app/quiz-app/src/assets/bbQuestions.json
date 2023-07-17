@@ -1,0 +1,42 @@
+[
+  {
+    "label": "What is Walt’s middle name?",
+    "answers": [
+      { "value": "Archibald", "correct": false },
+      { "value": "Matthew", "correct": false },
+      { "value": "Hartwell", "correct": true }
+    ]
+  },
+  {
+    "label": "What is the plant Walt used to poison Brock?",
+    "answers": [
+      { "value": "Narcissus", "correct": true },
+      { "value": "Lily-of-the-valley", "correct": false },
+      { "value": "Black Nightshade", "correct": false }
+    ]
+  },
+  {
+    "label": "What is the name of the boy Todd shot in the desert?",
+    "answers": [
+      { "value": "Drew Sharp", "correct": true },
+      { "value": "David Stewart", "correct": false },
+      { "value": "Donnie Solis", "correct": false }
+    ]
+  },
+  {
+    "label": "What is the model of Walt’s original car?",
+    "answers": [
+      { "value": "1987 Toyota Tercel", "correct": false },
+      { "value": "2004 Pontiac Aztek", "correct": true },
+      { "value": "2006 PT Cruiser", "correct": false }
+    ]
+  },
+  {
+    "label": "Before becoming Walt’s partner, Jesse cooked his meth with what special ingredient?",
+    "answers": [
+      { "value": "Chili powder", "isCorrect": true },
+      { "value": "A1 Steal Sauce", "isCorrect": false },
+      { "value": "Oregano", "isCorrect": false }
+    ]
+  }
+]

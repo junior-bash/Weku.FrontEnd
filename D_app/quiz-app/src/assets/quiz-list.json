@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Game of Thrones",
+    "name": "gotQuestions",
+    "description": "Questions about Game of Thrones",
+    "fileName": "gotQuestions.json"
+  },
+  {
+    "label": "Breaking Bad",
+    "name": "bbQuestions",
+    "description": "Questions about Breaking Bad",
+    "fileName": "bbQuestions.json"
+  }
+]
